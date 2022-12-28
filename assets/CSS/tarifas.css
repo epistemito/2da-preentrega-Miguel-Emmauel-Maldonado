@@ -1,0 +1,86 @@
+body{
+    background-image: radial-gradient(circle at 50% -20.71%, #ff57d2 0, #ff4edb 12.5%, #f046e3 25%, #d63feb 37.5%, #b53cf2 50%, #8c3df9 62.5%, #4f40ff 75%, #0046ff 87.5%, #004bff 100%);
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+        "fotologo nombre"
+        
+}
+
+.fotologo{
+    grid-area: "foologo";
+    position: relative;
+    animation: animacion 10s infinite;
+}
+
+@keyframes animacion{
+    0%{left:0px}
+    100%{left:100px}
+    
+}
+.nombre{
+    grid-area: "nombre";
+}
+
+
+nav{
+    
+    background-color: gold;
+    
+}
+
+nav ul{
+    font-family: cursive sans-serif;
+    font-size: 20px;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a:hover{
+    color: black;
+    
+}
+
+.título1{
+    color: black;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+section h2{
+    color: black;
+    font-family: cursive sans-serif;
+    font-size: 30px;
+    
+}
+
+section tr th{
+    color: black;
+    font-family: cursive sans-serif;
+    font-size: 25px;
+}
+
+td{
+    color: black;
+    font-family: cursive sans-serif;
+    font-size: 25px;
+}
+
+footer{
+    background-color: #bae8e8;
+}
+
+footer p{
+    color: black;
+    font-family: cursive sans-serif;
+    font-size: 25px;
+        
+
+}

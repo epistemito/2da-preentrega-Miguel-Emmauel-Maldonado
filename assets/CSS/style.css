@@ -1,0 +1,259 @@
+body{
+    background-image: radial-gradient(circle at 50% -20.71%, #fffff3 0, #ffffdf 16.67%, #fffeca 33.33%, #f2f2b5 50%, #dce7a1 66.67%, #c6dd91 83.33%, #aed484 100%);
+}
+h1{
+    color: black;
+    font-family: cursive sans-serif;
+    font-size: 100px;
+    padding-top: 5%;
+}
+
+h2{
+    color: black;
+    font-family: cursive sans-serif;
+    font-size: 20px;
+    
+}
+
+h3{
+    color: black;
+    font-family: cursive sans-serif;
+    font-size: 20px;
+}
+
+
+#container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+        "fotologo nombre"
+        
+}
+
+.fotologo{
+    grid-area: "foologo";
+    position: relative;
+    animation: animacion 10s infinite;
+}
+
+@keyframes animacion{
+    0%{left:0px}
+    100%{left:100px}
+    
+}
+.nombre{
+    grid-area: "nombre";
+}
+
+
+li a{
+    font-family: cursive sans-serif;
+    font-size: 15px;
+    list-style: none;
+    color: black;
+}
+
+
+nav ul li a:hover{
+    color: red;
+    
+}
+    
+
+main p{
+    color: black;
+    font-family: cursive sans-serif;
+    font-size: 25px;
+}
+
+.carousel-inner{
+    width: 80%;
+    height: 500px;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    
+    
+} 
+
+.titulo1{
+    text-align: center;
+    grid-area: "titulo1";
+}
+  
+.titulo2{
+    text-align: center;
+    grid-area: "titulo2";
+}
+.tabla{
+    text-align: center;
+    border: 0;
+    width: 50px;
+    grid-area: "tabla";
+    
+}
+.video iframe{
+    width="380"; 
+    height="200";
+    text-align: center;
+    grid-area: "video";
+    
+}
+
+    
+}
+
+section tr th{
+    color: black;
+    font-family: cursive sans-serif;
+    font-size: 20px;
+}
+
+td{
+    color: black;
+    font-family: cursive sans-serif;
+    font-size: 15px;
+}
+
+
+#formu h4{
+    color: black;
+    font-family: cursive sans-serif;
+    font-size: 30px;
+    
+}
+
+section form label{
+    color: black;
+    font-family: cursive sans-serif;
+    font-size: 20px;
+    
+}
+
+footer{
+    background-color: #bae8e8;
+}
+
+footer p{
+    color: black;
+    font-family: cursive sans-serif;
+    font-size: 25px;
+    
+
+}
+
+
+@media only screen and (min-width:1280px){
+
+#contenedor{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-row-gap: 50px;
+    grid-gap: 20px;
+    grid-template-areas:
+        "titulo1 tabla"
+        "titulo video"
+    
+       
+} 
+
+.titulo1{
+    grid-area: "titulo1"
+}
+  
+.titulo2{
+    grid-area: "titulo2"
+}
+.tabla{
+    
+    grid-area: "tabla"
+    
+}
+.video iframe{
+    width="560px"; 
+    height="600px";{
+    grid-area: "video"
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer p{
+    color: crimson;
+}
+
